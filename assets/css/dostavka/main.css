@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+.background-color {
+    background-color: #fafafa;
+}
+br {
+    margin: 20px 0;
+}
+
+.first-block {
+    background: linear-gradient(106.83deg, #2E2F3C 0%, #050608 91.26%);
+    /*background-image: url(../../img/DSC_8796.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    margin: 0 auto;
+    
+}
+.container-first-block {
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-first-block a {
+    background: linear-gradient(180deg, #FF8C69 0%, #C03105 100%);
+    border-radius: 5px;
+    padding: 15px 35px;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+.container-first-block a:hover {
+    background: linear-gradient(180deg, #C03105 0%, #FF8C69 100%);
+}
+h1 {
+    margin-top: -50px;
+    font-size: 42px;
+    width: 500px;
+    color: white;
+}
+
+.fotka {
+    position: relative;
+}
+.fotka img {
+    width: 150%;
+}
+
+.secondary-block {
+    width: 1200px;
+    margin: 0 auto;
+}
+h2 {
+    margin-top: 5%;
+    font-size: 36px;
+}
+.catalog {
+    justify-content: space-between;
+}
+figure img {
+    width: 90%;
+}
+
+.product-block {
+    display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+	flex-wrap: wrap;
+}
+.product
+{
+	/*flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	
+	margin-bottom: 59px;
+	justify-content: space-between;*/
+	width: 30%;
+    margin-bottom: 5%;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 10px;
+}
+.product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-title {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.product-title p{
+    margin: 0;
+}
+.product-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+.product-price {
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.product-image
+{
+	width: 100%;
+}
+.product-image img
+{
+	max-width: 100%;
+}
+.price-delete {
+    justify-content: space-between;
+    align-items: center;
+}
+.price-delete a {
+    padding: 7px 21px;
+    border: 2px solid #FF8C69;
+    border-radius: 5px;
+}
+
+.fourth-block {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+h5 {
+    padding-top: 5%;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+form label {
+    padding: 30px 0 0 0;
+}
+form input {
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #C03105;
+}
+.btn-form {
+    height: 42px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF8C69 0%, #C03105 100%);
+    transition: 0.3s ease-in-out;
+    border: none;
+    color: white;
+}
+.btn-form:hover {
+    background: linear-gradient(180deg, #C03105 0%, #FF8C69 100%);
+}

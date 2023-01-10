@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+.background-color {
+    background-color: #fafafa;
+}
+
+.first-block {
+    background: linear-gradient(106.83deg, #2E2F3C 0%, #050608 91.26%);
+    /*background-image: url(../../img/DSC_8796.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    margin: 0 auto;
+    
+}
+.container-first-block {
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-first-block a {
+    background: linear-gradient(180deg, #FF8C69 0%, #C03105 100%);
+    border-radius: 5px;
+    padding: 15px 35px;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+.container-first-block a:hover {
+    background: linear-gradient(180deg, #C03105 0%, #FF8C69 100%);
+}
+h1 {
+    margin-top: -50px;
+    font-size: 62px;
+    width: 480px;
+    color: white;
+}
+.container-first-block p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 150px;
+}
+.fotka {
+    position: relative;
+}
+.fotka img {
+    width: 148%;
+}
+
+.secondary-block {
+    width: 1200px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 36px;
+}
+.banket-description {
+    margin: 4px 0;
+    font-size: 18px;
+}
+.img-block {
+    margin-top: 4%;
+    width: 50%;
+}
+.img-block img {
+    border-radius: 5px;
+    width: 80%;
+}
+
+.fourth-block {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+h5 {
+    padding-top: 5%;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+form label {
+    padding: 30px 0 0 0;
+}
+form input {
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #C03105;
+}
+.btn-form {
+    height: 42px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF8C69 0%, #C03105 100%);
+    transition: 0.3s ease-in-out;
+    border: none;
+    color: white;
+}
+.btn-form:hover {
+    background: linear-gradient(180deg, #C03105 0%, #FF8C69 100%);
+}

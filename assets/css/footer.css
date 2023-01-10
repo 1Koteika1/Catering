@@ -1,0 +1,78 @@
+footer {
+    background: -webkit-linear-gradient(120deg, #2e2e2e,#303030,#454545);
+    /* Chrome 10-25, Safari 5.1-6 */                         
+    background: linear-gradient(120deg, #2e2e2e,#303030,#454545);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+}
+.menu-footer {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+}
+.menu-footer li {
+    padding: 8px 0px;
+    
+}
+.menu-footer a {
+    color: white;
+}
+.menu-footer a:hover {
+    color: rgb(62, 62, 62);
+    transition: 0.3s ease-in-out;
+}
+#uslugi-footer {
+    display: none;
+    position: absolute;
+    padding: 0;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 black;
+}
+#uslugi-footer li {
+    float: none;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+#uslugi-footer a {
+    color: black;
+}
+#uslugi-footer li:hover {
+    border-radius: 5px;
+    background-color: beige;
+}
+.menu-footer li:hover > #uslugi-footer {
+    display:inherit;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 180px;
+    margin: 0;
+}
+.about-us p {
+    color: white;
+}
+
+.btn-zvonok-footer {
+    border: none;
+    background: linear-gradient(180deg, #FF8C69 0%, #C03105 100%);
+    border-radius: 5px;
+    padding: 15px 35px;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+.btn-zvonok-footer:hover {
+    background-color: chocolate;
+}

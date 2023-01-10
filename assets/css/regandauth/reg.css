@@ -1,0 +1,36 @@
+main {
+    /* background: linear-gradient(106.83deg, #2E2F3C 0%, #050608 91.26%); */
+    background-color: #fcfcfc;
+}
+.container {
+    height: 700px;
+}
+.under-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.btn-submit {
+    margin-top: 40px;
+    background: linear-gradient(180deg, #FF8C69 0%, #C03105 100%);
+    color: white;
+    width: 330px;
+}
